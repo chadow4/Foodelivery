@@ -1,0 +1,61 @@
+
+.commande-container{
+    width: 400px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 15px;
+    margin: 1em;
+    background-color: #FF840D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.commande-num {
+    margin-left: 1em;
+}
+
+
+.commande-prix-produit {
+    margin-right: 2em;
+}
+
+.commande-hr {
+    border: black 2px ;
+
+}
+.commande-liste {
+    list-style-type:none;
+}
+
+.commande-li {
+    display: flex;
+    justify-content: space-between;
+}
+
+#commande-bouton {
+    border: solid 2px;
+    color: black;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    border-radius: 10px;
+}
+#commande-bouton:hover {
+    transform: scale(1.1);
+}
+
+.commande-prix {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.commande-somme {
+    margin-right: 2em;
+
+}
+
+
+
+

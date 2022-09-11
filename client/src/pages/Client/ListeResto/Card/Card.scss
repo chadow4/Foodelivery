@@ -1,0 +1,39 @@
+
+
+.card .card-body button {
+    cursor: pointer;
+    width: 10em;
+    padding: 1.5%;
+    color: white;
+    background: #FF840D;
+    border: white solid 1px;
+    border-radius: 12px;
+    justify-self: center;
+    transition: all 0.4s ease;
+}
+.card .card-body {
+    
+    width: 25em;
+    text-align: center;
+    padding-top:2em;
+   
+}
+
+.card .card-body button:hover {
+
+    cursor: pointer;
+    width: 10vw;
+    padding: 1.5%;
+    color: #FF840D;
+    background-color: white;
+    border: #FF840D solid 3px;
+    border-radius: 12px;
+    transform: scale(1.05);
+}
+
+
+.button-link-plat {
+    display : flex ;
+    justify-content: center;
+
+}

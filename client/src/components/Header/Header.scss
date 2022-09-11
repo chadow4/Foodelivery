@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap');
+/* ------------------------------------------------------ */
+/* ------------------------HEADER------------------------ */
+/* ------------------------------------------------------ */
+
+@import 'color.scss';
+
+.header {
+    .logo {
+        display: flex;
+        
+        background-color: none;
+    }
+    
+    .logo img {
+        transition: all .5s ease;
+        width: 150px;
+        height: auto;
+    }
+    .logo img:hover{
+        transform:scale(1.05);
+    }
+
+    .badge {
+        padding-left: 9px;
+        padding-right: 9px;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        border-radius: 9px;
+      }
+      
+      .label-warning[href],
+      .badge-warning[href] {
+        background-color: #c67605;
+      }
+      #lblCartCount {
+          font-size: 12px;
+          background: #ff0000;
+          color: #fff;
+          padding: 0 5px;
+          vertical-align: top;
+          margin-left: -10px; 
+      }
+    
+    .contactAndButton {
+        display: flex;
+        
+        height: auto;
+        justify-content: space-evenly;
+        flex-direction:row;
+       align-items: center;
+        
+    }
+    
+    .contact {
+        transition: all .5s ease;
+        color:white;
+        border: 3px solid $orange;
+        /*font-family: 'Merienda';*/
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1;
+        font-size: 17px;
+        background-color : $orange;
+        padding: 10px;
+        margin-left:1em;
+        outline: none;
+        border-radius: 10px;
+    }
+    
+    .contact:hover {
+        color:$orange;
+        background-color : transparent;
+        transform:scale(1.05);
+    
+    }
+    
+    .contactAndButton h1 {
+        padding-top:0.5em;
+        font-size: 17px;
+        font-family: 'Merienda';
+        padding-right:0.5em;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction:row;
+        background-color: none;
+        padding-left:5vw;
+        padding-right:5vw;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: 'Merienda';
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1350px) {
+
+    .header {
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .contactAndButton{
+            flex-direction:column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display:flex;
+           
+        }
+        .logo img {
+            transition: all .5s ease;
+            width: 200px;
+            height: auto;
+            padding-bottom: 1em;
+        }
+        .questions{
+            padding-bottom: 1em;
+        }
+    }
+
+  }
+  @media screen and (max-width: 850px) {
+
+    .contactAndButton{
+       width:35vw;
+       
+    }
+    
+
+  }
+/* ------------------------------------------------------ */
+/* ------------------------NAVBAR------------------------ */
+/* ------------------------------------------------------ */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 0 0 10px 2px rgb(0 0 0 / 30%);
+    
+    li {
+        color:white;
+        text-transform:none;
+        display:inline;
+        color: #fff;
+        transition: 0.5s;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        font-size:15px;
+        position: relative;
+        font-family: 'Merienda';
+        &:hover{
+            color:#ff840d;
+        }
+    }
+    
+    .gauche{
+        display: flex;
+        width: 40vw;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 70px;
+    }
+    .droite {
+        display: flex;
+        width: 25vw;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 70px;
+        
+        .droitecomponent{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            
+            .img{
+                width: 40px;
+                position: relative;
+                transition: all .5s ease;
+                margin-left: 30px;
+                &:hover{                
+                    transform:scale(1.1);
+                }
+            }          
+            
+            #lblCartCount {
+                position: absolute;
+                z-index: 1;
+            }
+            
+            .text-white{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                 
+                p {
+                    font-size: 20px;
+                    color: white;
+                    padding-top: 15px;
+                }
+                
+                .myaccount {
+                    filter: invert(100%);
+                    width: 30px;
+                    height: 30px;
+                    margin-right:15px;
+                    transition: all .5s ease;
+                    &:hover{
+                        transform:scale(1.1);
+                    }
+                }
+                .deco {
+                    color: white !important;
+                    font-weight: 800 !important;
+                    font-family: "Merienda" !important;
+                    margin-left:10em;
+                
+                    &:hover {
+                        color:#ff840d !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1600px) {
+
+    .droite{
+        width:27vw;
+    }
+    .gauche{
+        width:45vw;
+    }
+    .julien{
+        font-size:14px;
+    }
+ }
+
+@media screen and (max-width: 1350px) {
+
+   .droite{
+       width:30vw;
+   }
+   .gauche{
+       width:50vw;
+   }
+   .julien{
+       font-size:13px;
+   }
+}
+
+@media screen and (max-width: 1350px) {
+    .droite a{
+        display:none;
+    }
+    .gauche a{
+        display: none;
+    }
+    nav .img{
+        display:none;
+    }
+    nav .myaccount{
+        display:block;
+    }
+    .cursor{
+        display:block;
+        transition: all .5s ease;
+    }
+    .cursor{
+        transform:scale(1.1);
+
+    }
+    .text-white{
+        display:block;
+    }
+    
+    
+    
+
+
+
+ }
+
+ @media screen and (min-width: 1350px) {
+  
+    .cursor{
+        display:none;
+    }
+
+
+
+ }
+
+
+
+
+
+
+
+.text-white img:hover{
+    transform:scale(1.1);
+}
+
+.overlay {
+    height: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    top:0px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+    
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color:   rgb(179, 179, 179);
+    display: block;
+    transition: 0.3s;
+    transition: all .5s ease;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color:  #fa8f23;
+    transform:scale(1.05);
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  .closebtn{
+      z-index: 1;
+      cursor:pointer;
+      color:white;
+      transition: all .5s ease;
+  }
+
+  .closebtn:hover{
+    transform:scale(1.20);
+  }
+  @media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  .cursor{
+    font-size:30px;cursor:pointer;
+    transition: all .5s ease;
+
+  }
+  .cursor:hover{
+    transform:scale(1.20);
+
+  }

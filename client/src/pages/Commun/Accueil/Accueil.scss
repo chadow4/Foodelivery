@@ -1,0 +1,159 @@
+body {
+    font-size: large;
+    color: black;
+    border-top: 5px solid coral;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* ------------------------SECTION TOP------------------- */
+/* ------------------------------------------------------ */
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../assets/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    color: white;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.form-inline{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.tailleinput{
+    margin-right:1em;
+    
+}
+
+
+
+.separator {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  
+.top .separator::before,
+.top .separator::after {
+content: '';
+flex: 1;
+border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.separator:not(:empty)::before {
+margin-right: .50em;
+}
+
+.separator:not(:empty)::after {
+margin-left: .50em;
+}
+
+.top h2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 25px;
+
+}
+
+
+.top p{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.top form{
+    margin-top: 2em;
+    margin-bottom: 5em;
+    width: 10em;
+    
+}
+
+
+
+/* ------------------------------------------------------ */
+/* ------------------------SECTION TOP------------------- */
+/* ------------------------------------------------------ */
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+
+.bottom .separator{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 30px;
+}
+
+
+.bottom .separator::before,
+.bottom .separator::after {
+content: '';
+flex: 1;
+border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.stepImages{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1350px) {
+   
+    .stepImages{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center
+    }
+        .stepImages img{
+            width: 250px ;
+            height: auto;
+        }
+        .top p{
+            font-size:20px;
+        }
+        .top h2{
+            font-size:20px;
+        }
+        .bottom h2{
+            font-size:20px;
+        }
+    }
+  
+   
+
+
+
+
+/* ------------------------------------------------------ */
+/* ------------------------FOOTER------------------------ */
+/* ------------------------------------------------------ */
+
+footer {
+    margin-top: 5em;
+}

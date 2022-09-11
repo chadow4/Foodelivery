@@ -1,0 +1,109 @@
+.maindivGererMaCarte {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 50px;
+}
+
+.maindivGererMaCarte .boutonAjouterPlat {
+
+    position: fixed;
+
+    bottom: 0;
+    right: 0;
+
+    margin-bottom: 3%;
+    margin-right: 3%;
+
+    width: 15vw;
+    font-size: 1.2em;
+
+    cursor: pointer;
+    padding: 1% 2% 1% 2%;
+    color: white;
+    background-color: rgb(255, 123, 0);
+    border: white solid 1px;
+    border-radius: 15px;
+}
+
+.maindivGererMaCarte .boutonAjouterPlat:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: white;
+    border: rgb(255, 123, 0) solid 1px;
+    color: rgb(255, 123, 0);
+}
+
+
+.maindivGererMaCarte .formPlat { 
+
+    background-color: rgba(0, 0, 0, 0.212);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 80vh;
+
+    z-index: 999;
+}
+
+.maindivGererMaCarte form.form-plat-body {
+    background-color: white;
+    border-radius: 10px;
+    display: table;
+    font-family: 'Merienda';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    padding: 20px;
+}
+
+.maindivGererMaCarte div.form-example {
+    display: table-row;
+}
+
+.maindivGererMaCarte .formPlat label, .formPlat input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+.maindivGererMaCarte .formPlat label {
+    padding-right: 10px;
+}
+
+.maindivGererMaCarte .input-enregistrer input {
+
+    background-color: rgb(255, 123, 0);
+    border-radius: 5px;
+    border-color: rgb(255, 123, 0);
+}
+
+.maindivGererMaCarte .input-enregistrer input:hover {
+    background-color: white;
+    color: rgb(255, 123, 0);
+}
+.maindivGererMaCarte .divCloseButton {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 300%;
+}
+
+.maindivGererMaCarte .imageClose {
+    align-self: flex-end;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    transition: 0.5s;
+}
+.maindivGererMaCarte .imageClose:hover {
+    transform:scale(1.1);
+}
+
+.maindivGererMaCarte .card-body img{
+    width: 150px !important;
+    height: 100px !important;
+}

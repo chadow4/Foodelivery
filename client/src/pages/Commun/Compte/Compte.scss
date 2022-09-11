@@ -1,0 +1,201 @@
+#container2{
+    padding-top: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    flex-direction:  column;
+    font-family: 'Voltaire', sans-serif;
+   
+
+}
+.menu{
+    background-color: white;
+    box-shadow: 0 0 10px 2px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:1em;
+    padding:0.5em;
+    flex-direction: column;
+    
+}
+
+.infodateinscription{
+    text-align: center;
+}
+.details{
+    background-color: white;
+    width: 50vw;
+    box-shadow: 0 0 10px 2px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    padding: 2em;
+    margin:1em;
+    
+}
+.firstchild{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: auto;
+    box-shadow: 0 0 10px 2px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    padding-left:5vw;
+   
+}
+
+.secondchild{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin-top:5vh;
+    margin-bottom: 10vh;
+   
+    
+
+}
+.modification{
+    padding-left: 1vw;
+}
+#details{
+    padding-bottom: 2vh;
+}
+.personne{
+    
+    height: auto;
+    display:flex;
+    justify-content: center;
+    flex-direction:  column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.personne .logo{
+    width: 8.5em;
+}
+
+#nompersonne{
+    padding-top:2vh;
+}
+
+.boutonGererResto {
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    margin-right: 1em;
+    margin-bottom: 1em;
+
+    height: 80px;
+    line-height: 80px;  
+    width: 80px;  
+    font-size: 2.5em;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #eb8f18;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-color: white;
+}
+
+
+.boutonModifierCompte {
+
+   
+    font-size: 1.2em;
+
+    cursor: pointer;
+    padding: 1% 2% 1% 2%;
+    color: white;
+    background-color: rgb(255, 123, 0);
+    border: white solid 1px;
+    border-radius: 15px;
+}
+
+.boutonModifierCompte:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: white;
+    border: rgb(255, 123, 0) solid 1px;
+    color: rgb(255, 123, 0);
+}
+
+.formCompte { 
+
+    background-color: rgba(0, 0, 0, 0.212);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    z-index: 999;
+}
+
+form.form-compte-body {
+    background-color: white;
+    border-radius: 10px;
+    display: table;
+    font-family: 'Merienda';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40vh;
+    padding: 20px;
+    width: 30vw;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+.formCompte label, .formCompte input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+.formCompte label {
+    padding-right: 10px;
+}
+
+.input-enregistrer input {
+
+    background-color: rgb(255, 123, 0);
+    border-radius: 5px;
+    border-color: rgb(255, 123, 0);
+}
+
+.input-enregistrer input:hover {
+    background-color: white;
+    color: rgb(255, 123, 0);
+}
+.divCloseButton {
+    display: flex;
+    justify-content: flex-end;
+    width: 260%;
+}
+
+.imageClose {
+    align-self: flex-end;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    transition: 0.5s;
+}
+.imageClose:hover {
+    transform:scale(1.1);
+}
+
+.Compte .card-body img{
+    width: 150px !important;
+    height: 100px !important;
+}
+

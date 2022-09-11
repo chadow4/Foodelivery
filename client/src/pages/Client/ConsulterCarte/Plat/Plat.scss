@@ -1,0 +1,80 @@
+
+.bouton-ajouter{
+    cursor: pointer;
+    width: 10vw;
+    padding: 1.5%;
+    color: black;
+    background-color: rgb(255, 123, 0);
+    border: white solid 1px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bouton-ajouter p{
+    margin-bottom: 0%;
+}
+.bouton-ajouter:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: white;
+    border: rgb(255, 123, 0) solid 1px;
+    color: rgb(255, 123, 0);
+}
+
+.bouton-quantite {
+    display: flex;
+    align-items: center;
+}
+.bouton-quantite button {
+    width: 4vw;
+    color: black;
+}
+.bouton-quantite p {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-bottom: 0%;
+
+}
+
+.cardPlat-body {
+    border: rgb(255, 123, 0) solid 1px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 15vw;
+    height: auto;
+    margin-right: 15px;
+    padding: 5%;
+}
+
+.platImageCard {
+    min-height: 15vh;
+    max-width: 10vw;
+}
+
+.platImageCard img {
+    max-width: 10vw;
+    max-height: 15vh;
+}
+
+.platBouton {
+    cursor: pointer;
+    width: 10vw;
+    padding: 1.5%;
+    color: white;
+    background-color: rgb(255, 123, 0);
+    border: white solid 1px;
+    border-radius: 12px;
+}
+
+.platBouton:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: white;
+    border: rgb(255, 123, 0) solid 1px;
+    color: rgb(255, 123, 0);
+}

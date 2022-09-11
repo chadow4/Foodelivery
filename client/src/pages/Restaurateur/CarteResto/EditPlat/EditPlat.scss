@@ -1,0 +1,51 @@
+
+form.form-update {
+    background-color: white;
+    border-radius: 10px;
+    display: table;
+    font-family: 'Merienda';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    padding: 20px;
+}
+
+.formPlatUpdate{ 
+
+    background-color: rgba(0, 0, 0, 0.212);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+
+    z-index: 999;
+}
+
+.form-update label, .form-update input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+.form-update label {
+    padding-right: 10px;
+
+}
+
+.imageCloseUpdate {
+    align-self: flex-end;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    transition: 0.5s;
+}
+.imageCloseUpdate:hover {
+    transform:scale(1.1);
+}
+
+.divCloseButtonUpdate {
+    display: flex;
+    justify-content: flex-end;
+    width: 250%;
+}

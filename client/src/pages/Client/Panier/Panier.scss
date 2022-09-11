@@ -1,0 +1,89 @@
+.panier-infos {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.article-panier {
+
+    border-color: black;
+    border : solid 1px ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px -5px;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.article-panier p {
+
+    align-items: center;
+    margin-bottom: 0%;
+}
+
+
+
+.buton-delete {
+    border: solid 1px;
+    border-color:rgb(255, 123, 0); 
+    border-radius: 5px;
+    justify-self: flex-end;
+    background-color: rgb(255, 123, 0);
+
+    padding:10px ;
+
+    cursor: pointer;
+}
+.buton-delete:hover {
+    background-color: white;
+}
+
+.buton-delete-element  {
+    border: solid 1px;
+    border-color:rgb(255, 123, 0); 
+    border-radius: 5px;
+
+    background-color: rgb(255, 123, 0);
+    padding:10px ;
+
+    cursor: pointer;
+}
+
+.buton-delete-element:hover {
+    background-color: white;
+}
+
+.bouton-valider {
+    border: solid 2px ;
+    border-color: black;
+    border-radius: 5px;
+
+    background-color: black;
+    color: white;
+
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+
+
+.bouton-valider:hover {
+    background-color: white;
+    
+}
+.bouton-valider p {
+    margin-bottom: 0%;
+    color: white;
+    
+
+}
+.bouton-valider p:hover {
+    color: black;
+    
+}

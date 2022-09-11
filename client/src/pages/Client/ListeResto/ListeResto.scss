@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+
+body {
+    
+    color: black;
+    border-top: 5px solid coral;
+    width: 100%;
+    
+    
+}
+
+.partenaires{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    
+
+}
+.partenaires .row
+{
+    margin-bottom: 5vh;
+    font-family: 'Voltaire', sans-serif;
+    width: 100%;
+  
+}
+
+
+.partenaires .card-body{
+    background: white;
+    border-radius: 5%;
+    border-color: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.partenaires h5{
+    padding-top:1rem;
+}
+
+.partenaires .underheader{
+    padding-top:2vh;
+}
+
+.partenaires h1
+{
+    
+    
+    font-family: 'Voltaire', sans-serif;
+}
+
+.partenaires p {
+    
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
+    
+}
+
+.partenaires btn-group > .btn {
+    position: relative;
+    flex: 1 1 auto;
+    background: #FF840D;
+}
+
+.partenaires .card-img, .card-img-top {
+    border-top-left-radius: calc(.50rem - 1px);
+    border-top-right-radius: calc(.50rem - 1px);
+    border: solid;
+    width: 10em;
+}
+
+
+.partenaires .issou {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.partenaires .card {
+    margin: 10vh 5vh;
+    
+}
+
+.partenaires .text-white{
+    color:blue;
+}
+
+ 

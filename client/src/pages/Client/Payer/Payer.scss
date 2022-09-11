@@ -1,0 +1,311 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+ 
+
+.validerPanier h1{
+    font-family: 'Voltaire', sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-top:0.4em;
+    
+    
+
+}
+
+.validerPanier #note{
+    margin-top:0.4em;
+    padding-left: 2em;
+}
+
+/* gauche+droite (sans titre Livraison)*/
+.validerPanier .entiere{
+    display: flex;
+    justify-content: space-around;
+    background-color: none;
+    padding: 2em;
+}
+
+.entiere .gauche .cardhoraireslivraison {
+    display: flex;
+    width: 30vw;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* --------------------------------------------------- 
+DIV GAUCHE 
+--------------------------------------------------- */
+
+
+.validerPanier .gauche{
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding:1em;
+    
+    
+    border: 2px solid none;
+    border-radius:5%;  
+}
+
+/* FORMULAIRE */ 
+
+
+
+
+
+/* input */ 
+.validerPanier .gauche input{
+    border: 1px solid #ced4da;
+    width: 30vw;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-clip: padding-box;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - */
+
+
+/* PAYER button */
+
+.validerPanier .gauche #payer button{
+    font-size: 2.5rem;
+    width: 30vw;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    margin-top:20px;
+    font-family: 'Voltaire';
+
+}
+
+.validerPanier #payer button:hover {
+    color: white;
+    border: 2px solid white;
+    background-color: #ff840d;
+     /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+     -webkit-transition: all 0.5s ease; /* Safari et Chrome */
+     -moz-transition: all 0.5s ease; /* Firefox */
+     -ms-transition: all 0.5s ease; /* Internet Explorer 9 */
+     -o-transition: all 0.5s ease; /* Opera */
+     transition: all 0.5s ease;
+
+     /* L'image est grossie de 25% */
+    -webkit-transform:scale(1.05); /* Safari et Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* Internet Explorer 9 */
+    -o-transform:scale(1.05); /* Opera */
+    transform:scale(1.05);
+
+}
+/* - - - - - - - - - - - - - - - - - - - - */
+
+
+   
+
+
+/* --------------------------------------------------- 
+DIV DROITE
+--------------------------------------------------- */
+ 
+.droite {
+    padding: 40px;
+}
+
+.validerPanier .droite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 1px solid black;
+    border-radius: 5%;
+    
+    background-color: #ff8724;
+    
+}
+
+
+.validerPanier .droite .tabcommande{
+    /* border:5px solid rgb(255, 1, 187); */
+    font-family: 'Roboto';
+    font-weight: bold;
+    
+}
+
+.validerPanier .droite .tabcommande .plat{
+    /* border:3px solid rgb(0, 85, 255); */
+    text-align: left;
+    
+    
+    
+}
+.validerPanier .droite .tabcommande .price{
+    /*border:3px solid rgb(132, 255, 0); */
+    text-align: center;  
+    
+    
+}
+
+.validerPanier .macommande h2{
+    color: black;
+    font-family: 'Voltaire', sans-serif;
+    font-size: 3rem;
+    margin-top: -3em;
+    margin-right: 1em;
+}
+.tabcommande table .somme {
+    border-top: black solid 1px;
+}
+
+.tabcommande table {
+    width: 20vw;
+}
+
+
+
+
+/* Responsive (rajouter une media à 300 si nécesssaire)*/ 
+
+/* RESPONSIVE DU H1 A REVOIR À LA FIN */
+
+/* media pour H1*/
+@media screen and (max-width: 1492px){
+
+    .validerPanier h1{
+        margin-left: -1.5em;
+    }
+}
+
+/* media pour H1*/
+@media screen and (max-width: 1450px){
+
+    .validerPanier h1{
+        margin-left: -1.5em;
+    }
+}
+
+/* media pour H1*/
+@media screen and (max-width: 1400px){
+
+    .validerPanier h1{
+        margin-left: -1.5em;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .validerPanier .entiere{
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .validerPanier .droite{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 3em;
+        padding:2em;
+        
+        
+    }
+
+    .validerPanier h1{
+        margin-left: 2em;
+    }
+
+    .validerPanier .macommande h2{
+        margin-top: -1.5em;
+    }
+
+    .validerPanier .gauche{
+        width: 33vw;
+    }
+
+ 
+    
+    
+}
+
+@media screen and (max-width: 1150px) {
+    .validerPanier .gauche{
+         padding-bottom:2.5em;
+    }
+    .validerPanier h1{
+        margin-left: 2em;
+    }
+
+    .validerPanier .entiere{
+        width: 100vw;
+    }
+}
+
+
+@media screen and (max-width: 1135px){
+
+    .validerPanier h1{
+        margin-left: 0.6em;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .validerPanier .entiere{
+        width: 100vw;
+    }
+    .validerPanier .gauche{
+        padding-bottom:3em;
+   }
+
+   .validerPanier h1{
+    margin-left: 0.4em;
+}
+}
+    
+
+@media screen and (max-width: 950px) {
+    .validerPanier .entiere{
+        width: 100vw;
+    }
+
+
+    .validerPanier h1{
+        margin-left: -1.3em;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .validerPanier .droite{
+        width:50vw;
+        
+        
+    }
+    .validerPanier .gauche{
+        width:80vw;
+        padding:3em;
+   }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .validerPanier .droite{
+        width:60vw;
+        
+        
+    }
+    .validerPanier .gauche{
+        width:100vw;
+        padding:4em;
+   }
+    
+}

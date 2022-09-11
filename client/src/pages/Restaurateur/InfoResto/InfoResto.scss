@@ -1,0 +1,84 @@
+.mainContainerGererMonResto {
+    position: absolute;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    width: 100%;
+    height: 80.5%;
+}
+
+.restoNonRenseigne {
+    width: 35vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    padding: 2em;
+
+    background-color: white;
+    border-radius: 2%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.errorImg {
+    width: auto;
+    height: 45vh;
+}
+
+.whiteCardText {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0.8em;
+}
+
+.XXX{
+    margin-top: 2%;
+    margin-left: 10%;
+    
+    border-color: black;
+    
+
+}
+.div-infos-resto img {
+    align-self: center;
+    width: 40%;
+    height: auto;
+}
+
+.div-infos-resto {
+    width: 40%;
+
+    background-color: white;
+    border-color: black;
+    border: solid 1px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+    margin-right: auto;
+
+    padding: 10px;
+}
+
+
+.divBoutonGererCarte button {
+    background-color: rgb(255, 123, 0);
+    border-radius: 5px;
+    border-color: rgb(255, 123, 0);
+    font-family: 'Merienda';
+}
+
+.divBoutonGererCarte button:hover {
+    background-color: white;
+    color: rgb(255, 123, 0);
+    
+}
+.infos-resto {
+    display: table-cell;
+
+}

@@ -1,0 +1,54 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+ 
+
+.suiviCommande h1{
+    font-family: 'Voltaire', sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-top:0.4em;
+    padding: 4vh;
+    
+
+}
+
+
+.suiviCommande .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/background.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    color: white;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+
+
+.suiviCommande .stepImages{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 3em;
+}
+
+@media screen and (max-width: 1350px) {
+   
+    .suiviCommande .stepImages{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center
+    }
+        .suiviCommande .stepImages img{
+            width: 250px ;
+            height: auto;
+        }
+}
