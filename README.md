@@ -18,11 +18,8 @@
 
 Foodelivery is a website where you can order food from restaurants near you and have it delivered ! The concept is simple: we find the restaurants around you, you choose one, you place your order and you pay the bill via PayPal. You can follow the progress of your order, from preparation to delivery. Enjoy your meal !
 
-<p align="right">
-    **Everything here is fictive.
-  </p>
 
-### Built With
+### Developped with :
 
 * React
 * NodeJS
