@@ -42,7 +42,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/chadow4/foodelivery.git
+   git clone https://github.com/chadow4/Foodelivery.git
    ```
 2. Install NPM packages (in client and server folders)
    ```sh
