@@ -16,7 +16,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Foodelivery is a website where you can order food from restaurants near you and have it delivered ! The concept is simple: we find the restaurants around you, you choose one, you place your order and you pay the bill via PayPal. You can follow the progress of your order, from preparation to delivery. Enjoy your meal !
+Foodelivery is a website where you can order food from restaurants near you and have it delivered ! The concept is simple: we find the restaurants around you, you choose one, you place your order and you pay the bill via PayPal. You can track the progress of your order, from preparation to delivery. Enjoy your meal !
 
 
 ### Developped with :
